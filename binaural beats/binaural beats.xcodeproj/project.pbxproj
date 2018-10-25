@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B2F45C0C20BCDC0800C6F0EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F45C0B20BCDC0800C6F0EB /* AppDelegate.swift */; };
+		B2F45C0E20BCDC0800C6F0EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F45C0D20BCDC0800C6F0EB /* ViewController.swift */; };
+		B2F45C1120BCDC0800C6F0EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2F45C0F20BCDC0800C6F0EB /* Main.storyboard */; };
+		B2F45C1320BCDC0800C6F0EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2F45C1220BCDC0800C6F0EB /* Assets.xcassets */; };
+		B2F45C1620BCDC0800C6F0EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2F45C1420BCDC0800C6F0EB /* LaunchScreen.storyboard */; };
+		B2F45C2120BCDC0800C6F0EB /* binaural_beatsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F45C2020BCDC0800C6F0EB /* binaural_beatsTests.swift */; };
+		B2F45C2C20BCDC0900C6F0EB /* binaural_beatsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F45C2B20BCDC0900C6F0EB /* binaural_beatsUITests.swift */; };
+		B2F45C4B20BCDF3400C6F0EB /* Theta 6.0Hz.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B2F45C4520BCDF3300C6F0EB /* Theta 6.0Hz.mp3 */; };
+		B2F45C4C20BCDF3400C6F0EB /* Alpha 10.0Hz.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B2F45C4620BCDF3300C6F0EB /* Alpha 10.0Hz.mp3 */; };
+		B2F45C4D20BCDF3400C6F0EB /* Depression Relief Pure Tones.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B2F45C4720BCDF3300C6F0EB /* Depression Relief Pure Tones.mp3 */; };
+		B2F45C4E20BCDF3400C6F0EB /* Beta 20.0Hz.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B2F45C4820BCDF3300C6F0EB /* Beta 20.0Hz.mp3 */; };
+		B2F45C4F20BCDF3400C6F0EB /* Delta 3.0Hz.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B2F45C4920BCDF3300C6F0EB /* Delta 3.0Hz.mp3 */; };
+		B2F45C5020BCDF3400C6F0EB /* Creativity.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B2F45C4A20BCDF3300C6F0EB /* Creativity.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B2F45C1D20BCDC0800C6F0EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2F45C0020BCDC0800C6F0EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2F45C0720BCDC0800C6F0EB;
+			remoteInfo = "binaural beats";
+		};
+		B2F45C2820BCDC0800C6F0EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2F45C0020BCDC0800C6F0EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2F45C0720BCDC0800C6F0EB;
+			remoteInfo = "binaural beats";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B2F45C0820BCDC0800C6F0EB /* binaural beats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "binaural beats.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2F45C0B20BCDC0800C6F0EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B2F45C0D20BCDC0800C6F0EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B2F45C1020BCDC0800C6F0EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B2F45C1220BCDC0800C6F0EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B2F45C1520BCDC0800C6F0EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B2F45C1720BCDC0800C6F0EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2F45C1C20BCDC0800C6F0EB /* binaural beatsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "binaural beatsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2F45C2020BCDC0800C6F0EB /* binaural_beatsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = binaural_beatsTests.swift; sourceTree = "<group>"; };
+		B2F45C2220BCDC0800C6F0EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2F45C2720BCDC0800C6F0EB /* binaural beatsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "binaural beatsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2F45C2B20BCDC0900C6F0EB /* binaural_beatsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = binaural_beatsUITests.swift; sourceTree = "<group>"; };
+		B2F45C2D20BCDC0900C6F0EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2F45C4520BCDF3300C6F0EB /* Theta 6.0Hz.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Theta 6.0Hz.mp3"; sourceTree = SOURCE_ROOT; };
+		B2F45C4620BCDF3300C6F0EB /* Alpha 10.0Hz.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Alpha 10.0Hz.mp3"; sourceTree = SOURCE_ROOT; };
+		B2F45C4720BCDF3300C6F0EB /* Depression Relief Pure Tones.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Depression Relief Pure Tones.mp3"; sourceTree = SOURCE_ROOT; };
+		B2F45C4820BCDF3300C6F0EB /* Beta 20.0Hz.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Beta 20.0Hz.mp3"; sourceTree = SOURCE_ROOT; };
+		B2F45C4920BCDF3300C6F0EB /* Delta 3.0Hz.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Delta 3.0Hz.mp3"; sourceTree = SOURCE_ROOT; };
+		B2F45C4A20BCDF3300C6F0EB /* Creativity.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Creativity.mp3; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2F45C0520BCDC0800C6F0EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2F45C1920BCDC0800C6F0EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2F45C2420BCDC0800C6F0EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B2F45BFF20BCDC0800C6F0EB = {
+			isa = PBXGroup;
+			children = (
+				B2F45C0A20BCDC0800C6F0EB /* binaural beats */,
+				B2F45C1F20BCDC0800C6F0EB /* binaural beatsTests */,
+				B2F45C2A20BCDC0900C6F0EB /* binaural beatsUITests */,
+				B2F45C0920BCDC0800C6F0EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B2F45C0920BCDC0800C6F0EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2F45C0820BCDC0800C6F0EB /* binaural beats.app */,
+				B2F45C1C20BCDC0800C6F0EB /* binaural beatsTests.xctest */,
+				B2F45C2720BCDC0800C6F0EB /* binaural beatsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2F45C0A20BCDC0800C6F0EB /* binaural beats */ = {
+			isa = PBXGroup;
+			children = (
+				B2F45C0B20BCDC0800C6F0EB /* AppDelegate.swift */,
+				B2F45C0D20BCDC0800C6F0EB /* ViewController.swift */,
+				B2F45C0F20BCDC0800C6F0EB /* Main.storyboard */,
+				B2F45C1220BCDC0800C6F0EB /* Assets.xcassets */,
+				B2F45C1420BCDC0800C6F0EB /* LaunchScreen.storyboard */,
+				B2F45C4620BCDF3300C6F0EB /* Alpha 10.0Hz.mp3 */,
+				B2F45C4820BCDF3300C6F0EB /* Beta 20.0Hz.mp3 */,
+				B2F45C4A20BCDF3300C6F0EB /* Creativity.mp3 */,
+				B2F45C4920BCDF3300C6F0EB /* Delta 3.0Hz.mp3 */,
+				B2F45C4720BCDF3300C6F0EB /* Depression Relief Pure Tones.mp3 */,
+				B2F45C4520BCDF3300C6F0EB /* Theta 6.0Hz.mp3 */,
+				B2F45C1720BCDC0800C6F0EB /* Info.plist */,
+			);
+			path = "binaural beats";
+			sourceTree = "<group>";
+		};
+		B2F45C1F20BCDC0800C6F0EB /* binaural beatsTests */ = {
+			isa = PBXGroup;
+			children = (
+				B2F45C2020BCDC0800C6F0EB /* binaural_beatsTests.swift */,
+				B2F45C2220BCDC0800C6F0EB /* Info.plist */,
+			);
+			path = "binaural beatsTests";
+			sourceTree = "<group>";
+		};
+		B2F45C2A20BCDC0900C6F0EB /* binaural beatsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B2F45C2B20BCDC0900C6F0EB /* binaural_beatsUITests.swift */,
+				B2F45C2D20BCDC0900C6F0EB /* Info.plist */,
+			);
+			path = "binaural beatsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2F45C0720BCDC0800C6F0EB /* binaural beats */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2F45C3020BCDC0900C6F0EB /* Build configuration list for PBXNativeTarget "binaural beats" */;
+			buildPhases = (
+				B2F45C0420BCDC0800C6F0EB /* Sources */,
+				B2F45C0520BCDC0800C6F0EB /* Frameworks */,
+				B2F45C0620BCDC0800C6F0EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "binaural beats";
+			productName = "binaural beats";
+			productReference = B2F45C0820BCDC0800C6F0EB /* binaural beats.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B2F45C1B20BCDC0800C6F0EB /* binaural beatsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2F45C3320BCDC0900C6F0EB /* Build configuration list for PBXNativeTarget "binaural beatsTests" */;
+			buildPhases = (
+				B2F45C1820BCDC0800C6F0EB /* Sources */,
+				B2F45C1920BCDC0800C6F0EB /* Frameworks */,
+				B2F45C1A20BCDC0800C6F0EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2F45C1E20BCDC0800C6F0EB /* PBXTargetDependency */,
+			);
+			name = "binaural beatsTests";
+			productName = "binaural beatsTests";
+			productReference = B2F45C1C20BCDC0800C6F0EB /* binaural beatsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B2F45C2620BCDC0800C6F0EB /* binaural beatsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2F45C3620BCDC0900C6F0EB /* Build configuration list for PBXNativeTarget "binaural beatsUITests" */;
+			buildPhases = (
+				B2F45C2320BCDC0800C6F0EB /* Sources */,
+				B2F45C2420BCDC0800C6F0EB /* Frameworks */,
+				B2F45C2520BCDC0800C6F0EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2F45C2920BCDC0800C6F0EB /* PBXTargetDependency */,
+			);
+			name = "binaural beatsUITests";
+			productName = "binaural beatsUITests";
+			productReference = B2F45C2720BCDC0800C6F0EB /* binaural beatsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2F45C0020BCDC0800C6F0EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Johnny Choi";
+				TargetAttributes = {
+					B2F45C0720BCDC0800C6F0EB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					B2F45C1B20BCDC0800C6F0EB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B2F45C0720BCDC0800C6F0EB;
+					};
+					B2F45C2620BCDC0800C6F0EB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B2F45C0720BCDC0800C6F0EB;
+					};
+				};
+			};
+			buildConfigurationList = B2F45C0320BCDC0800C6F0EB /* Build configuration list for PBXProject "binaural beats" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B2F45BFF20BCDC0800C6F0EB;
+			productRefGroup = B2F45C0920BCDC0800C6F0EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2F45C0720BCDC0800C6F0EB /* binaural beats */,
+				B2F45C1B20BCDC0800C6F0EB /* binaural beatsTests */,
+				B2F45C2620BCDC0800C6F0EB /* binaural beatsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2F45C0620BCDC0800C6F0EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2F45C4C20BCDF3400C6F0EB /* Alpha 10.0Hz.mp3 in Resources */,
+				B2F45C1620BCDC0800C6F0EB /* LaunchScreen.storyboard in Resources */,
+				B2F45C4F20BCDF3400C6F0EB /* Delta 3.0Hz.mp3 in Resources */,
+				B2F45C4B20BCDF3400C6F0EB /* Theta 6.0Hz.mp3 in Resources */,
+				B2F45C5020BCDF3400C6F0EB /* Creativity.mp3 in Resources */,
+				B2F45C1320BCDC0800C6F0EB /* Assets.xcassets in Resources */,
+				B2F45C4E20BCDF3400C6F0EB /* Beta 20.0Hz.mp3 in Resources */,
+				B2F45C4D20BCDF3400C6F0EB /* Depression Relief Pure Tones.mp3 in Resources */,
+				B2F45C1120BCDC0800C6F0EB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2F45C1A20BCDC0800C6F0EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2F45C2520BCDC0800C6F0EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2F45C0420BCDC0800C6F0EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2F45C0E20BCDC0800C6F0EB /* ViewController.swift in Sources */,
+				B2F45C0C20BCDC0800C6F0EB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2F45C1820BCDC0800C6F0EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2F45C2120BCDC0800C6F0EB /* binaural_beatsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2F45C2320BCDC0800C6F0EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2F45C2C20BCDC0900C6F0EB /* binaural_beatsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B2F45C1E20BCDC0800C6F0EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2F45C0720BCDC0800C6F0EB /* binaural beats */;
+			targetProxy = B2F45C1D20BCDC0800C6F0EB /* PBXContainerItemProxy */;
+		};
+		B2F45C2920BCDC0800C6F0EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2F45C0720BCDC0800C6F0EB /* binaural beats */;
+			targetProxy = B2F45C2820BCDC0800C6F0EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B2F45C0F20BCDC0800C6F0EB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2F45C1020BCDC0800C6F0EB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B2F45C1420BCDC0800C6F0EB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2F45C1520BCDC0800C6F0EB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B2F45C2E20BCDC0900C6F0EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B2F45C2F20BCDC0900C6F0EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B2F45C3120BCDC0900C6F0EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 922GYPUENB;
+				INFOPLIST_FILE = "binaural beats/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jin.binaural-beats";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B2F45C3220BCDC0900C6F0EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 922GYPUENB;
+				INFOPLIST_FILE = "binaural beats/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jin.binaural-beats";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B2F45C3420BCDC0900C6F0EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 922GYPUENB;
+				INFOPLIST_FILE = "binaural beatsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jin.binaural-beatsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/binaural beats.app/binaural beats";
+			};
+			name = Debug;
+		};
+		B2F45C3520BCDC0900C6F0EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 922GYPUENB;
+				INFOPLIST_FILE = "binaural beatsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jin.binaural-beatsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/binaural beats.app/binaural beats";
+			};
+			name = Release;
+		};
+		B2F45C3720BCDC0900C6F0EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 922GYPUENB;
+				INFOPLIST_FILE = "binaural beatsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jin.binaural-beatsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "binaural beats";
+			};
+			name = Debug;
+		};
+		B2F45C3820BCDC0900C6F0EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 922GYPUENB;
+				INFOPLIST_FILE = "binaural beatsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jin.binaural-beatsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "binaural beats";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2F45C0320BCDC0800C6F0EB /* Build configuration list for PBXProject "binaural beats" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2F45C2E20BCDC0900C6F0EB /* Debug */,
+				B2F45C2F20BCDC0900C6F0EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2F45C3020BCDC0900C6F0EB /* Build configuration list for PBXNativeTarget "binaural beats" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2F45C3120BCDC0900C6F0EB /* Debug */,
+				B2F45C3220BCDC0900C6F0EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2F45C3320BCDC0900C6F0EB /* Build configuration list for PBXNativeTarget "binaural beatsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2F45C3420BCDC0900C6F0EB /* Debug */,
+				B2F45C3520BCDC0900C6F0EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2F45C3620BCDC0900C6F0EB /* Build configuration list for PBXNativeTarget "binaural beatsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2F45C3720BCDC0900C6F0EB /* Debug */,
+				B2F45C3820BCDC0900C6F0EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B2F45C0020BCDC0800C6F0EB /* Project object */;
+}
