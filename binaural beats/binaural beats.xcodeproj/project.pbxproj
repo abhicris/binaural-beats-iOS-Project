@@ -200,6 +200,11 @@
 					B2F45C0720BCDC0800C6F0EB = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					B2F45C1B20BCDC0800C6F0EB = {
 						CreatedOnToolsVersion = 9.2;
