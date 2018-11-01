@@ -7,19 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		55F498DA218B9216000A313C /* BetaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F498D9218B9216000A313C /* BetaViewController.swift */; };
+		55F498DC218B923B000A313C /* ThetaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F498DB218B923B000A313C /* ThetaViewController.swift */; };
 		B2F45C0C20BCDC0800C6F0EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F45C0B20BCDC0800C6F0EB /* AppDelegate.swift */; };
-		B2F45C0E20BCDC0800C6F0EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F45C0D20BCDC0800C6F0EB /* ViewController.swift */; };
+		B2F45C0E20BCDC0800C6F0EB /* AlphaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F45C0D20BCDC0800C6F0EB /* AlphaViewController.swift */; };
 		B2F45C1120BCDC0800C6F0EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2F45C0F20BCDC0800C6F0EB /* Main.storyboard */; };
 		B2F45C1320BCDC0800C6F0EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2F45C1220BCDC0800C6F0EB /* Assets.xcassets */; };
 		B2F45C1620BCDC0800C6F0EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2F45C1420BCDC0800C6F0EB /* LaunchScreen.storyboard */; };
 		B2F45C2120BCDC0800C6F0EB /* binaural_beatsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F45C2020BCDC0800C6F0EB /* binaural_beatsTests.swift */; };
 		B2F45C2C20BCDC0900C6F0EB /* binaural_beatsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F45C2B20BCDC0900C6F0EB /* binaural_beatsUITests.swift */; };
-		B2F45C4B20BCDF3400C6F0EB /* Theta 6.0Hz.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B2F45C4520BCDF3300C6F0EB /* Theta 6.0Hz.mp3 */; };
-		B2F45C4C20BCDF3400C6F0EB /* Alpha 10.0Hz.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B2F45C4620BCDF3300C6F0EB /* Alpha 10.0Hz.mp3 */; };
-		B2F45C4D20BCDF3400C6F0EB /* Depression Relief Pure Tones.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B2F45C4720BCDF3300C6F0EB /* Depression Relief Pure Tones.mp3 */; };
-		B2F45C4E20BCDF3400C6F0EB /* Beta 20.0Hz.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B2F45C4820BCDF3300C6F0EB /* Beta 20.0Hz.mp3 */; };
-		B2F45C4F20BCDF3400C6F0EB /* Delta 3.0Hz.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B2F45C4920BCDF3300C6F0EB /* Delta 3.0Hz.mp3 */; };
-		B2F45C5020BCDF3400C6F0EB /* Creativity.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B2F45C4A20BCDF3300C6F0EB /* Creativity.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,9 +36,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		55F498D9218B9216000A313C /* BetaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetaViewController.swift; sourceTree = "<group>"; };
+		55F498DB218B923B000A313C /* ThetaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThetaViewController.swift; sourceTree = "<group>"; };
 		B2F45C0820BCDC0800C6F0EB /* binaural beats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "binaural beats.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2F45C0B20BCDC0800C6F0EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B2F45C0D20BCDC0800C6F0EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B2F45C0D20BCDC0800C6F0EB /* AlphaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlphaViewController.swift; sourceTree = "<group>"; };
 		B2F45C1020BCDC0800C6F0EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B2F45C1220BCDC0800C6F0EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B2F45C1520BCDC0800C6F0EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -53,12 +51,6 @@
 		B2F45C2720BCDC0800C6F0EB /* binaural beatsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "binaural beatsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2F45C2B20BCDC0900C6F0EB /* binaural_beatsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = binaural_beatsUITests.swift; sourceTree = "<group>"; };
 		B2F45C2D20BCDC0900C6F0EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B2F45C4520BCDF3300C6F0EB /* Theta 6.0Hz.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Theta 6.0Hz.mp3"; sourceTree = SOURCE_ROOT; };
-		B2F45C4620BCDF3300C6F0EB /* Alpha 10.0Hz.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Alpha 10.0Hz.mp3"; sourceTree = SOURCE_ROOT; };
-		B2F45C4720BCDF3300C6F0EB /* Depression Relief Pure Tones.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Depression Relief Pure Tones.mp3"; sourceTree = SOURCE_ROOT; };
-		B2F45C4820BCDF3300C6F0EB /* Beta 20.0Hz.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Beta 20.0Hz.mp3"; sourceTree = SOURCE_ROOT; };
-		B2F45C4920BCDF3300C6F0EB /* Delta 3.0Hz.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Delta 3.0Hz.mp3"; sourceTree = SOURCE_ROOT; };
-		B2F45C4A20BCDF3300C6F0EB /* Creativity.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Creativity.mp3; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,16 +102,12 @@
 			isa = PBXGroup;
 			children = (
 				B2F45C0B20BCDC0800C6F0EB /* AppDelegate.swift */,
-				B2F45C0D20BCDC0800C6F0EB /* ViewController.swift */,
+				B2F45C0D20BCDC0800C6F0EB /* AlphaViewController.swift */,
+				55F498D9218B9216000A313C /* BetaViewController.swift */,
+				55F498DB218B923B000A313C /* ThetaViewController.swift */,
 				B2F45C0F20BCDC0800C6F0EB /* Main.storyboard */,
 				B2F45C1220BCDC0800C6F0EB /* Assets.xcassets */,
 				B2F45C1420BCDC0800C6F0EB /* LaunchScreen.storyboard */,
-				B2F45C4620BCDF3300C6F0EB /* Alpha 10.0Hz.mp3 */,
-				B2F45C4820BCDF3300C6F0EB /* Beta 20.0Hz.mp3 */,
-				B2F45C4A20BCDF3300C6F0EB /* Creativity.mp3 */,
-				B2F45C4920BCDF3300C6F0EB /* Delta 3.0Hz.mp3 */,
-				B2F45C4720BCDF3300C6F0EB /* Depression Relief Pure Tones.mp3 */,
-				B2F45C4520BCDF3300C6F0EB /* Theta 6.0Hz.mp3 */,
 				B2F45C1720BCDC0800C6F0EB /* Info.plist */,
 			);
 			path = "binaural beats";
@@ -250,14 +238,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2F45C4C20BCDF3400C6F0EB /* Alpha 10.0Hz.mp3 in Resources */,
 				B2F45C1620BCDC0800C6F0EB /* LaunchScreen.storyboard in Resources */,
-				B2F45C4F20BCDF3400C6F0EB /* Delta 3.0Hz.mp3 in Resources */,
-				B2F45C4B20BCDF3400C6F0EB /* Theta 6.0Hz.mp3 in Resources */,
-				B2F45C5020BCDF3400C6F0EB /* Creativity.mp3 in Resources */,
 				B2F45C1320BCDC0800C6F0EB /* Assets.xcassets in Resources */,
-				B2F45C4E20BCDF3400C6F0EB /* Beta 20.0Hz.mp3 in Resources */,
-				B2F45C4D20BCDF3400C6F0EB /* Depression Relief Pure Tones.mp3 in Resources */,
 				B2F45C1120BCDC0800C6F0EB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,7 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2F45C0E20BCDC0800C6F0EB /* ViewController.swift in Sources */,
+				55F498DA218B9216000A313C /* BetaViewController.swift in Sources */,
+				55F498DC218B923B000A313C /* ThetaViewController.swift in Sources */,
+				B2F45C0E20BCDC0800C6F0EB /* AlphaViewController.swift in Sources */,
 				B2F45C0C20BCDC0800C6F0EB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -453,6 +437,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 922GYPUENB;
 				INFOPLIST_FILE = "binaural beats/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "jin.binaural-beats";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -468,6 +453,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 922GYPUENB;
 				INFOPLIST_FILE = "binaural beats/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "jin.binaural-beats";
 				PRODUCT_NAME = "$(TARGET_NAME)";
