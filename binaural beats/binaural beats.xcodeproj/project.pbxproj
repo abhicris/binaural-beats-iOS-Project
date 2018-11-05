@@ -22,6 +22,15 @@
 		55F33B3F219095B200E7767A /* rocks.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 55F33B3D219095B200E7767A /* rocks.jpg */; };
 		55F498DA218B9216000A313C /* BetaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F498D9218B9216000A313C /* BetaViewController.swift */; };
 		55F498DC218B923B000A313C /* ThetaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F498DB218B923B000A313C /* ThetaViewController.swift */; };
+		55F4B1FA2190FF9C00A52D20 /* rounded-pause-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 55F4B1F72190FF9900A52D20 /* rounded-pause-button.png */; };
+		55F4B1FB2190FF9C00A52D20 /* play-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 55F4B1F82190FF9900A52D20 /* play-button.png */; };
+		55F4B1FC2190FF9C00A52D20 /* stop.png in Resources */ = {isa = PBXBuildFile; fileRef = 55F4B1F92190FF9A00A52D20 /* stop.png */; };
+		55F4B1FE2190FFEE00A52D20 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 55F4B1FD2190FFEE00A52D20 /* icon.png */; };
+		55F4B2002191005000A52D20 /* play-button (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 55F4B1FF2191004F00A52D20 /* play-button (1).png */; };
+		55F4B2022191007F00A52D20 /* rounded-pause-button (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 55F4B2012191007F00A52D20 /* rounded-pause-button (1).png */; };
+		55F4B204219100B400A52D20 /* stop-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 55F4B203219100B300A52D20 /* stop-button.png */; };
+		55F4B206219103B500A52D20 /* GammaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F4B205219103B500A52D20 /* GammaViewController.swift */; };
+		55F4B208219103EA00A52D20 /* DeltaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F4B207219103EA00A52D20 /* DeltaViewController.swift */; };
 		B2F45C0C20BCDC0800C6F0EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F45C0B20BCDC0800C6F0EB /* AppDelegate.swift */; };
 		B2F45C0E20BCDC0800C6F0EB /* AlphaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F45C0D20BCDC0800C6F0EB /* AlphaViewController.swift */; };
 		B2F45C1120BCDC0800C6F0EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2F45C0F20BCDC0800C6F0EB /* Main.storyboard */; };
@@ -64,6 +73,15 @@
 		55F33B3D219095B200E7767A /* rocks.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rocks.jpg; sourceTree = "<group>"; };
 		55F498D9218B9216000A313C /* BetaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetaViewController.swift; sourceTree = "<group>"; };
 		55F498DB218B923B000A313C /* ThetaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThetaViewController.swift; sourceTree = "<group>"; };
+		55F4B1F72190FF9900A52D20 /* rounded-pause-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rounded-pause-button.png"; sourceTree = "<group>"; };
+		55F4B1F82190FF9900A52D20 /* play-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play-button.png"; sourceTree = "<group>"; };
+		55F4B1F92190FF9A00A52D20 /* stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stop.png; sourceTree = "<group>"; };
+		55F4B1FD2190FFEE00A52D20 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		55F4B1FF2191004F00A52D20 /* play-button (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play-button (1).png"; sourceTree = "<group>"; };
+		55F4B2012191007F00A52D20 /* rounded-pause-button (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rounded-pause-button (1).png"; sourceTree = "<group>"; };
+		55F4B203219100B300A52D20 /* stop-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stop-button.png"; sourceTree = "<group>"; };
+		55F4B205219103B500A52D20 /* GammaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GammaViewController.swift; sourceTree = "<group>"; };
+		55F4B207219103EA00A52D20 /* DeltaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeltaViewController.swift; sourceTree = "<group>"; };
 		B2F45C0820BCDC0800C6F0EB /* binaural beats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "binaural beats.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2F45C0B20BCDC0800C6F0EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B2F45C0D20BCDC0800C6F0EB /* AlphaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlphaViewController.swift; sourceTree = "<group>"; };
@@ -131,6 +149,8 @@
 				B2F45C0D20BCDC0800C6F0EB /* AlphaViewController.swift */,
 				55F498D9218B9216000A313C /* BetaViewController.swift */,
 				55F498DB218B923B000A313C /* ThetaViewController.swift */,
+				55F4B207219103EA00A52D20 /* DeltaViewController.swift */,
+				55F4B205219103B500A52D20 /* GammaViewController.swift */,
 				B2F45C0F20BCDC0800C6F0EB /* Main.storyboard */,
 				B2F45C1220BCDC0800C6F0EB /* Assets.xcassets */,
 				55827E10218FCE17009DE4B5 /* alpha.png */,
@@ -139,8 +159,15 @@
 				55F33B35219093E200E7767A /* space.jpg */,
 				55F33B3C219095B100E7767A /* flower.jpg */,
 				553B1EB62190AA8800E6B56C /* delta.png */,
+				55F4B1FF2191004F00A52D20 /* play-button (1).png */,
+				55F4B203219100B300A52D20 /* stop-button.png */,
 				55F33B3D219095B200E7767A /* rocks.jpg */,
 				55F33B37219093E300E7767A /* splash.jpg */,
+				55F4B2012191007F00A52D20 /* rounded-pause-button (1).png */,
+				55F4B1FD2190FFEE00A52D20 /* icon.png */,
+				55F4B1F82190FF9900A52D20 /* play-button.png */,
+				55F4B1F72190FF9900A52D20 /* rounded-pause-button.png */,
+				55F4B1F92190FF9A00A52D20 /* stop.png */,
 				55F33B34219093E200E7767A /* water.jpg */,
 				55F33B36219093E300E7767A /* wave.jpg */,
 				55827E0B218FCCAB009DE4B5 /* gamma.png */,
@@ -282,21 +309,28 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55F4B1FA2190FF9C00A52D20 /* rounded-pause-button.png in Resources */,
 				55F33B3B219093E400E7767A /* splash.jpg in Resources */,
 				55827E0F218FCCAB009DE4B5 /* gamma.png in Resources */,
+				55F4B1FB2190FF9C00A52D20 /* play-button.png in Resources */,
 				55F33B3F219095B200E7767A /* rocks.jpg in Resources */,
 				55F33B3E219095B200E7767A /* flower.jpg in Resources */,
 				55827E15218FD968009DE4B5 /* background.jpg in Resources */,
+				55F4B204219100B400A52D20 /* stop-button.png in Resources */,
 				55F33B39219093E400E7767A /* space.jpg in Resources */,
 				553B1EB92190C80D00E6B56C /* man_on_cliff.jpg in Resources */,
 				55F33B38219093E400E7767A /* water.jpg in Resources */,
+				55F4B2002191005000A52D20 /* play-button (1).png in Resources */,
 				B2F45C1620BCDC0800C6F0EB /* LaunchScreen.storyboard in Resources */,
 				55F33B3A219093E400E7767A /* wave.jpg in Resources */,
+				55F4B1FC2190FF9C00A52D20 /* stop.png in Resources */,
 				55827E13218FCE17009DE4B5 /* beta.png in Resources */,
 				55827E12218FCE17009DE4B5 /* alpha.png in Resources */,
 				55827E0E218FCCAB009DE4B5 /* theta.png in Resources */,
+				55F4B1FE2190FFEE00A52D20 /* icon.png in Resources */,
 				B2F45C1320BCDC0800C6F0EB /* Assets.xcassets in Resources */,
 				553B1EB72190AA8800E6B56C /* delta.png in Resources */,
+				55F4B2022191007F00A52D20 /* rounded-pause-button (1).png in Resources */,
 				B2F45C1120BCDC0800C6F0EB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -322,6 +356,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55F4B206219103B500A52D20 /* GammaViewController.swift in Sources */,
+				55F4B208219103EA00A52D20 /* DeltaViewController.swift in Sources */,
 				55F498DA218B9216000A313C /* BetaViewController.swift in Sources */,
 				55F498DC218B923B000A313C /* ThetaViewController.swift in Sources */,
 				B2F45C0E20BCDC0800C6F0EB /* AlphaViewController.swift in Sources */,
