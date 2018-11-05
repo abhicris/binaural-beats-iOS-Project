@@ -237,12 +237,10 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Eh-28-Jse">
-                                                <rect key="frame" x="83" y="99" width="53" height="50"/>
+                                                <rect key="frame" x="83" y="116" width="53" height="50"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="50" id="0Hb-Jt-4xf"/>
-                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="49" id="ACH-S8-bSj"/>
-                                                    <constraint firstAttribute="width" constant="53" id="MpS-cv-cSB"/>
-                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="53" id="gpB-0c-J6v"/>
+                                                    <constraint firstAttribute="height" constant="50" id="2gL-Pl-5mr"/>
+                                                    <constraint firstAttribute="width" constant="53" id="NoZ-0b-vfh"/>
                                                 </constraints>
                                                 <state key="normal" backgroundImage="alpha.png"/>
                                                 <connections>
@@ -250,10 +248,10 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NmH-1v-9Hd">
-                                                <rect key="frame" x="243" y="99" width="53" height="50"/>
+                                                <rect key="frame" x="251" y="274" width="53" height="50"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="50" id="0bl-Dy-81U"/>
-                                                    <constraint firstAttribute="width" constant="53" id="I5G-Ad-bU5"/>
+                                                    <constraint firstAttribute="height" constant="50" id="4GJ-95-kOr"/>
+                                                    <constraint firstAttribute="width" constant="53" id="zQi-Zo-mQ8"/>
                                                 </constraints>
                                                 <state key="normal" backgroundImage="beta.png"/>
                                                 <connections>
@@ -261,43 +259,33 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nGB-dw-psB">
-                                                <rect key="frame" x="74" y="351" width="53" height="50"/>
+                                                <rect key="frame" x="251" y="601" width="53" height="50"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="53" id="FuH-xY-gQa"/>
-                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="Kz4-de-JEB"/>
-                                                    <constraint firstAttribute="height" constant="50" id="OWZ-oZ-6YI"/>
-                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="53" id="hU5-Kj-F1Y"/>
+                                                    <constraint firstAttribute="width" constant="53" id="DHn-mn-qA2"/>
+                                                    <constraint firstAttribute="height" constant="50" id="MvJ-Wr-Ziy"/>
                                                 </constraints>
                                                 <state key="normal" backgroundImage="theta.png"/>
                                                 <connections>
                                                     <segue destination="lTM-Ee-JxK" kind="showDetail" animates="NO" id="NBh-Sb-W86"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aSY-IE-Eqg">
-                                                <rect key="frame" x="252" y="351" width="53" height="50"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aSY-IE-Eqg">
+                                                <rect key="frame" x="83" y="434" width="53" height="50"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="50" id="Bn6-lJ-Hlj"/>
-                                                    <constraint firstAttribute="width" constant="53" id="S6u-dq-8Nw"/>
+                                                    <constraint firstAttribute="height" constant="50" id="BMH-bC-nSK"/>
+                                                    <constraint firstAttribute="width" constant="53" id="Ft4-Yg-Pxg"/>
                                                 </constraints>
                                                 <state key="normal" backgroundImage="gamma.png"/>
                                                 <connections>
                                                     <segue destination="n7d-DM-deb" kind="show" animates="NO" id="W6l-fJ-JSf"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kbo-7w-1mp">
-                                                <rect key="frame" x="230" y="637" width="66" height="30"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" title="New Beat"/>
-                                                <connections>
-                                                    <segue destination="yNx-41-qIl" kind="show" animates="NO" id="LnT-T7-hNx"/>
-                                                </connections>
-                                            </button>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Alpha waves are designed to place you in deep relaxation" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kkm-xh-oH9">
-                                                <rect key="frame" x="27" y="159" width="152" height="124"/>
+                                                <rect key="frame" x="201" y="79" width="152" height="124"/>
                                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="152" id="De3-lP-U2l"/>
-                                                    <constraint firstAttribute="height" constant="124" id="lTo-Zs-mEu"/>
+                                                    <constraint firstAttribute="height" constant="124" id="54h-nK-Gfe"/>
+                                                    <constraint firstAttribute="width" constant="152" id="6nG-kb-6e9"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
@@ -309,11 +297,11 @@
                                                 </userDefinedRuntimeAttributes>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Beta waves help to promote a heightened state of alertness, logic and critical reasoning." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KsV-Rt-QDR">
-                                                <rect key="frame" x="202" y="159" width="152" height="124"/>
+                                                <rect key="frame" x="33" y="237" width="152" height="124"/>
                                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="152" id="BWz-UX-5QW"/>
-                                                    <constraint firstAttribute="height" constant="124" id="kfT-gB-ZeB"/>
+                                                    <constraint firstAttribute="height" constant="124" id="U5D-zb-GbB"/>
+                                                    <constraint firstAttribute="width" constant="152" id="gVX-HR-Jlc"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
@@ -325,11 +313,11 @@
                                                 </userDefinedRuntimeAttributes>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gamma waves are associated with insight and high level information processing" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uaC-i9-UaZ">
-                                                <rect key="frame" x="202" y="427" width="152" height="124"/>
+                                                <rect key="frame" x="201" y="397" width="152" height="124"/>
                                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="124" id="JEF-Yo-VLU"/>
-                                                    <constraint firstAttribute="width" constant="152" id="XxM-9g-k5R"/>
+                                                    <constraint firstAttribute="width" constant="152" id="dIf-CQ-C6r"/>
+                                                    <constraint firstAttribute="height" constant="124" id="ij7-hD-qSL"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
@@ -341,11 +329,11 @@
                                                 </userDefinedRuntimeAttributes>
                                             </label>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Theta waves take you a step farther than Alpha, placing you in a light sleep" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wtq-te-EZh">
-                                                <rect key="frame" x="27" y="427" width="152" height="124"/>
+                                                <rect key="frame" x="33" y="564" width="152" height="124"/>
                                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="152" id="7hL-WA-43o"/>
-                                                    <constraint firstAttribute="height" constant="124" id="pCp-Bw-8Hy"/>
+                                                    <constraint firstAttribute="width" constant="152" id="VcS-Fd-ufs"/>
+                                                    <constraint firstAttribute="height" constant="124" id="mK9-4F-DE6"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
@@ -356,16 +344,8 @@
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
                                             </label>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c5c-Tc-iUJ">
-                                                <rect key="frame" x="77" y="627" width="53" height="50"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" backgroundImage="delta.png"/>
-                                                <connections>
-                                                    <segue destination="ZCW-tM-gyD" kind="show" animates="NO" id="tU7-os-f10"/>
-                                                </connections>
-                                            </button>
-                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Delta waves place you in a deep, dreamless sleep, allowing access to your unconciouss mind" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MeA-Ep-PmJ">
-                                                <rect key="frame" x="27" y="698" width="152" height="124"/>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Delta waves place you in a deep, dreamless sleep, allowing access to your unconciouss mind" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MeA-Ep-PmJ">
+                                                <rect key="frame" x="201" y="719" width="152" height="124"/>
                                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="152" id="Mrg-Iy-r2q"/>
@@ -380,33 +360,48 @@
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
                                             </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c5c-Tc-iUJ">
+                                                <rect key="frame" x="83" y="756" width="53" height="50"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="IlD-Ek-X8Z"/>
+                                                    <constraint firstAttribute="width" constant="53" id="Tjk-Fo-dfd"/>
+                                                </constraints>
+                                                <state key="normal" backgroundImage="delta.png"/>
+                                                <connections>
+                                                    <segue destination="ZCW-tM-gyD" kind="show" animates="NO" id="tU7-os-f10"/>
+                                                </connections>
+                                            </button>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
-                                            <constraint firstItem="aSY-IE-Eqg" firstAttribute="top" secondItem="dg9-PU-NMH" secondAttribute="top" constant="369" id="1Zs-FD-lba"/>
-                                            <constraint firstItem="KsV-Rt-QDR" firstAttribute="leading" secondItem="Kkm-xh-oH9" secondAttribute="trailing" constant="23" id="2Cc-Av-Wf3"/>
-                                            <constraint firstItem="uaC-i9-UaZ" firstAttribute="leading" secondItem="wtq-te-EZh" secondAttribute="trailing" constant="23" id="2xh-Qj-CZZ"/>
-                                            <constraint firstItem="aSY-IE-Eqg" firstAttribute="leading" secondItem="nGB-dw-psB" secondAttribute="trailing" constant="124" id="4dC-IZ-ldl"/>
+                                            <constraint firstAttribute="trailing" secondItem="NmH-1v-9Hd" secondAttribute="trailing" constant="71" id="0C3-pD-GRp"/>
+                                            <constraint firstItem="wtq-te-EZh" firstAttribute="leading" secondItem="dg9-PU-NMH" secondAttribute="leading" constant="33" id="0qb-ql-HDw"/>
+                                            <constraint firstItem="nGB-dw-psB" firstAttribute="leading" secondItem="wtq-te-EZh" secondAttribute="trailing" constant="66" id="5X4-sm-JgP"/>
                                             <constraint firstItem="hAJ-Tn-PYF" firstAttribute="top" secondItem="dg9-PU-NMH" secondAttribute="top" constant="24" id="9i3-NZ-GKh"/>
-                                            <constraint firstItem="uaC-i9-UaZ" firstAttribute="top" secondItem="aSY-IE-Eqg" secondAttribute="bottom" constant="8" id="D47-iM-eZT"/>
+                                            <constraint firstItem="uaC-i9-UaZ" firstAttribute="leading" secondItem="aSY-IE-Eqg" secondAttribute="trailing" constant="65" id="B1D-B2-QfY"/>
+                                            <constraint firstItem="7Eh-28-Jse" firstAttribute="leading" secondItem="dg9-PU-NMH" secondAttribute="leading" constant="83" id="CKz-eM-CE7"/>
                                             <constraint firstItem="hAJ-Tn-PYF" firstAttribute="centerX" secondItem="dg9-PU-NMH" secondAttribute="centerX" id="DjJ-lj-0ob"/>
-                                            <constraint firstAttribute="trailing" secondItem="uaC-i9-UaZ" secondAttribute="trailing" constant="21" id="KeP-n0-V7p"/>
-                                            <constraint firstItem="Kkm-xh-oH9" firstAttribute="top" secondItem="7Eh-28-Jse" secondAttribute="bottom" constant="10" id="Mht-ny-pBm"/>
-                                            <constraint firstItem="nGB-dw-psB" firstAttribute="top" secondItem="Kkm-xh-oH9" secondAttribute="bottom" constant="68" id="OK9-Qc-8dU"/>
-                                            <constraint firstAttribute="trailing" secondItem="aSY-IE-Eqg" secondAttribute="trailing" constant="79" id="Qnx-qY-bpJ"/>
-                                            <constraint firstAttribute="trailing" secondItem="KsV-Rt-QDR" secondAttribute="trailing" constant="21" id="Syr-oQ-36v"/>
-                                            <constraint firstItem="NmH-1v-9Hd" firstAttribute="top" secondItem="dg9-PU-NMH" secondAttribute="top" constant="99" id="XAx-yU-3x8"/>
-                                            <constraint firstItem="wtq-te-EZh" firstAttribute="leading" secondItem="dg9-PU-NMH" secondAttribute="leading" constant="27" id="bAh-pd-W7t"/>
-                                            <constraint firstItem="nGB-dw-psB" firstAttribute="leading" secondItem="dg9-PU-NMH" secondAttribute="leading" constant="74" id="bqB-C2-C42"/>
-                                            <constraint firstItem="KsV-Rt-QDR" firstAttribute="leading" secondItem="Kkm-xh-oH9" secondAttribute="trailing" constant="23" id="egF-yD-7cY"/>
+                                            <constraint firstItem="MeA-Ep-PmJ" firstAttribute="leading" secondItem="c5c-Tc-iUJ" secondAttribute="trailing" constant="65" id="E6q-AL-DsZ"/>
+                                            <constraint firstAttribute="trailing" secondItem="nGB-dw-psB" secondAttribute="trailing" constant="71" id="HQY-ZO-uu7"/>
+                                            <constraint firstItem="uaC-i9-UaZ" firstAttribute="top" secondItem="NmH-1v-9Hd" secondAttribute="bottom" constant="73" id="HQl-T2-Qx0"/>
+                                            <constraint firstItem="7Eh-28-Jse" firstAttribute="top" secondItem="hAJ-Tn-PYF" secondAttribute="bottom" constant="62" id="HSH-RU-NpF"/>
+                                            <constraint firstAttribute="trailing" secondItem="MeA-Ep-PmJ" secondAttribute="trailing" constant="22" id="LXc-bi-wXE"/>
+                                            <constraint firstItem="KsV-Rt-QDR" firstAttribute="leading" secondItem="dg9-PU-NMH" secondAttribute="leading" constant="33" id="LuE-Sw-I0k"/>
+                                            <constraint firstItem="c5c-Tc-iUJ" firstAttribute="leading" secondItem="dg9-PU-NMH" secondAttribute="leading" constant="83" id="MFh-sT-9bY"/>
+                                            <constraint firstItem="aSY-IE-Eqg" firstAttribute="top" secondItem="KsV-Rt-QDR" secondAttribute="bottom" constant="73" id="N37-cc-u1Y"/>
+                                            <constraint firstItem="NmH-1v-9Hd" firstAttribute="leading" secondItem="KsV-Rt-QDR" secondAttribute="trailing" constant="66" id="OsX-Ix-Z1S"/>
+                                            <constraint firstItem="c5c-Tc-iUJ" firstAttribute="top" secondItem="wtq-te-EZh" secondAttribute="bottom" constant="68" id="UGP-vB-L6m"/>
+                                            <constraint firstItem="wtq-te-EZh" firstAttribute="top" secondItem="aSY-IE-Eqg" secondAttribute="bottom" constant="80" id="Z7h-6q-uRU"/>
+                                            <constraint firstAttribute="trailing" secondItem="Kkm-xh-oH9" secondAttribute="trailing" constant="22" id="azq-aR-Wlf"/>
+                                            <constraint firstItem="nGB-dw-psB" firstAttribute="top" secondItem="uaC-i9-UaZ" secondAttribute="bottom" constant="80" id="b30-6F-QSR"/>
+                                            <constraint firstItem="Kkm-xh-oH9" firstAttribute="leading" secondItem="7Eh-28-Jse" secondAttribute="trailing" constant="65" id="br6-1O-xqf"/>
+                                            <constraint firstItem="MeA-Ep-PmJ" firstAttribute="top" secondItem="nGB-dw-psB" secondAttribute="bottom" constant="68" id="cPQ-ru-3tx"/>
+                                            <constraint firstItem="aSY-IE-Eqg" firstAttribute="leading" secondItem="dg9-PU-NMH" secondAttribute="leading" constant="83" id="dma-CY-TW4"/>
                                             <constraint firstAttribute="height" constant="1000" id="fLA-0P-5dL"/>
-                                            <constraint firstItem="wtq-te-EZh" firstAttribute="top" secondItem="nGB-dw-psB" secondAttribute="bottom" constant="26" id="fh0-YV-3ht"/>
-                                            <constraint firstAttribute="trailing" secondItem="NmH-1v-9Hd" secondAttribute="trailing" constant="79" id="itC-4X-Jrc"/>
-                                            <constraint firstItem="KsV-Rt-QDR" firstAttribute="top" secondItem="NmH-1v-9Hd" secondAttribute="bottom" constant="10" id="jQG-uf-j4L"/>
-                                            <constraint firstItem="uaC-i9-UaZ" firstAttribute="leading" secondItem="wtq-te-EZh" secondAttribute="trailing" constant="23" id="jgu-cp-iko"/>
-                                            <constraint firstItem="Kkm-xh-oH9" firstAttribute="leading" secondItem="dg9-PU-NMH" secondAttribute="leading" constant="27" id="oIR-li-aU2"/>
-                                            <constraint firstItem="7Eh-28-Jse" firstAttribute="top" secondItem="dg9-PU-NMH" secondAttribute="top" constant="99" id="ojl-py-07u"/>
-                                            <constraint firstItem="7Eh-28-Jse" firstAttribute="leading" secondItem="dg9-PU-NMH" secondAttribute="leading" constant="83" id="pl3-wg-kks"/>
+                                            <constraint firstItem="NmH-1v-9Hd" firstAttribute="top" secondItem="Kkm-xh-oH9" secondAttribute="bottom" constant="71" id="gkM-wi-F4T"/>
+                                            <constraint firstItem="Kkm-xh-oH9" firstAttribute="top" secondItem="hAJ-Tn-PYF" secondAttribute="bottom" constant="25" id="h8M-Jh-JhR"/>
+                                            <constraint firstAttribute="trailing" secondItem="uaC-i9-UaZ" secondAttribute="trailing" constant="22" id="jNk-VU-d88"/>
+                                            <constraint firstItem="KsV-Rt-QDR" firstAttribute="top" secondItem="7Eh-28-Jse" secondAttribute="bottom" constant="71" id="sti-lw-UgH"/>
                                         </constraints>
                                     </view>
                                 </subviews>
