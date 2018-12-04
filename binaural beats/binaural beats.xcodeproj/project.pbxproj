@@ -14,6 +14,12 @@
 		55827E12218FCE17009DE4B5 /* alpha.png in Resources */ = {isa = PBXBuildFile; fileRef = 55827E10218FCE17009DE4B5 /* alpha.png */; };
 		55827E13218FCE17009DE4B5 /* beta.png in Resources */ = {isa = PBXBuildFile; fileRef = 55827E11218FCE17009DE4B5 /* beta.png */; };
 		55827E15218FD968009DE4B5 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 55827E14218FD968009DE4B5 /* background.jpg */; };
+		55CEDA9F21B6F4AF002AF625 /* Creativity.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 55CEDA9B21B6F4AE002AF625 /* Creativity.mp3 */; };
+		55CEDAA021B6F4AF002AF625 /* Delta 3.0Hz.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 55CEDA9C21B6F4AF002AF625 /* Delta 3.0Hz.mp3 */; };
+		55CEDAA121B6F4AF002AF625 /* Theta 6.0Hz.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 55CEDA9D21B6F4AF002AF625 /* Theta 6.0Hz.mp3 */; };
+		55CEDAA221B6F4AF002AF625 /* Depression Relief Pure Tones.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 55CEDA9E21B6F4AF002AF625 /* Depression Relief Pure Tones.mp3 */; };
+		55CEDAA521B6F4B4002AF625 /* alpha.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 55CEDAA321B6F4B3002AF625 /* alpha.mp3 */; };
+		55CEDAA621B6F4B4002AF625 /* Beta 20.0Hz.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 55CEDAA421B6F4B3002AF625 /* Beta 20.0Hz.mp3 */; };
 		55F33B38219093E400E7767A /* water.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 55F33B34219093E200E7767A /* water.jpg */; };
 		55F33B39219093E400E7767A /* space.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 55F33B35219093E200E7767A /* space.jpg */; };
 		55F33B3A219093E400E7767A /* wave.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 55F33B36219093E300E7767A /* wave.jpg */; };
@@ -65,6 +71,12 @@
 		55827E10218FCE17009DE4B5 /* alpha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = alpha.png; path = ../../../../../Downloads/alpha.png; sourceTree = "<group>"; };
 		55827E11218FCE17009DE4B5 /* beta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = beta.png; path = ../../../../../Downloads/beta.png; sourceTree = "<group>"; };
 		55827E14218FD968009DE4B5 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		55CEDA9B21B6F4AE002AF625 /* Creativity.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Creativity.mp3; sourceTree = SOURCE_ROOT; };
+		55CEDA9C21B6F4AF002AF625 /* Delta 3.0Hz.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Delta 3.0Hz.mp3"; sourceTree = SOURCE_ROOT; };
+		55CEDA9D21B6F4AF002AF625 /* Theta 6.0Hz.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Theta 6.0Hz.mp3"; sourceTree = SOURCE_ROOT; };
+		55CEDA9E21B6F4AF002AF625 /* Depression Relief Pure Tones.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Depression Relief Pure Tones.mp3"; sourceTree = SOURCE_ROOT; };
+		55CEDAA321B6F4B3002AF625 /* alpha.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = alpha.mp3; sourceTree = SOURCE_ROOT; };
+		55CEDAA421B6F4B3002AF625 /* Beta 20.0Hz.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Beta 20.0Hz.mp3"; sourceTree = SOURCE_ROOT; };
 		55F33B34219093E200E7767A /* water.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = water.jpg; sourceTree = "<group>"; };
 		55F33B35219093E200E7767A /* space.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = space.jpg; sourceTree = "<group>"; };
 		55F33B36219093E300E7767A /* wave.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wave.jpg; sourceTree = "<group>"; };
@@ -161,7 +173,13 @@
 				553B1EB62190AA8800E6B56C /* delta.png */,
 				55F4B1FF2191004F00A52D20 /* play-button (1).png */,
 				55F4B203219100B300A52D20 /* stop-button.png */,
+				55CEDAA321B6F4B3002AF625 /* alpha.mp3 */,
+				55CEDAA421B6F4B3002AF625 /* Beta 20.0Hz.mp3 */,
 				55F33B3D219095B200E7767A /* rocks.jpg */,
+				55CEDA9B21B6F4AE002AF625 /* Creativity.mp3 */,
+				55CEDA9C21B6F4AF002AF625 /* Delta 3.0Hz.mp3 */,
+				55CEDA9E21B6F4AF002AF625 /* Depression Relief Pure Tones.mp3 */,
+				55CEDA9D21B6F4AF002AF625 /* Theta 6.0Hz.mp3 */,
 				55F33B37219093E300E7767A /* splash.jpg */,
 				55F4B2012191007F00A52D20 /* rounded-pause-button (1).png */,
 				55F4B1FD2190FFEE00A52D20 /* icon.png */,
@@ -310,6 +328,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				55F4B1FA2190FF9C00A52D20 /* rounded-pause-button.png in Resources */,
+				55CEDAA521B6F4B4002AF625 /* alpha.mp3 in Resources */,
 				55F33B3B219093E400E7767A /* splash.jpg in Resources */,
 				55827E0F218FCCAB009DE4B5 /* gamma.png in Resources */,
 				55F4B1FB2190FF9C00A52D20 /* play-button.png in Resources */,
@@ -323,11 +342,16 @@
 				55F4B2002191005000A52D20 /* play-button (1).png in Resources */,
 				B2F45C1620BCDC0800C6F0EB /* LaunchScreen.storyboard in Resources */,
 				55F33B3A219093E400E7767A /* wave.jpg in Resources */,
+				55CEDAA621B6F4B4002AF625 /* Beta 20.0Hz.mp3 in Resources */,
 				55F4B1FC2190FF9C00A52D20 /* stop.png in Resources */,
 				55827E13218FCE17009DE4B5 /* beta.png in Resources */,
+				55CEDA9F21B6F4AF002AF625 /* Creativity.mp3 in Resources */,
+				55CEDAA021B6F4AF002AF625 /* Delta 3.0Hz.mp3 in Resources */,
 				55827E12218FCE17009DE4B5 /* alpha.png in Resources */,
 				55827E0E218FCCAB009DE4B5 /* theta.png in Resources */,
 				55F4B1FE2190FFEE00A52D20 /* icon.png in Resources */,
+				55CEDAA121B6F4AF002AF625 /* Theta 6.0Hz.mp3 in Resources */,
+				55CEDAA221B6F4AF002AF625 /* Depression Relief Pure Tones.mp3 in Resources */,
 				B2F45C1320BCDC0800C6F0EB /* Assets.xcassets in Resources */,
 				553B1EB72190AA8800E6B56C /* delta.png in Resources */,
 				55F4B2022191007F00A52D20 /* rounded-pause-button (1).png in Resources */,

@@ -17,13 +17,14 @@ class DeltaViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        //        do {
-        //            audioPlayer = try AVAudioPlayer(contentsOf: URL.init(fileURLWithPath: Bundle.main.path(forResource: "Alpha 10.0Hz", ofType: "mp3")!))
-        //            audioPlayer.prepareToPlay()
-        //        }
-        //        catch {
-        //            print(error)
-        //        }
+                do {
+                    audioPlayer = try AVAudioPlayer(contentsOf: URL.init(fileURLWithPath: Bundle.main.path(forResource: "Delta 3.0Hz", ofType: "mp3")!))
+                    audioPlayer.prepareToPlay()
+                    audioPlayer.numberOfLoops = -1
+                }
+                catch {
+                    print(error)
+                }
     }
     
     override func didReceiveMemoryWarning() {
